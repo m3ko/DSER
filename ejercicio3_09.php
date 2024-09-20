@@ -9,29 +9,27 @@
     <?php
 
 
-$personas=array(
-    "nombre"    => array("Ane","Sofia"),
-    "apellido"  => array("Goiku","Cañabate"),
-    "DNI"       => array("895684X", "555555Y")
+$mes=array(
+    "mes"    => array("Enero","Febrero", "Marzo","Abril"),
+    "dia"  => array(1,2,3,4,5,6,7,8,9,10)
 );
 
 echo("<table>
   <tr>
-    <th>Nombre</th>
-    <th>Apellido</th>
-    <th>DNI</th>
+    <th>Mes</th>
+    <th>Dia</th>
   </tr>
   <tr>
-      <td>".$personas["nombre"][0]."</td>
-      <td>".$personas["apellido"][0]."</td>
-      <td>".$personas["DNI"][0]."</td>
+      <td>".$mes["mes"][3]."</td>
+      <td>".$mes["dia"][5]."</td>
+     
   </tr>
   <tr>
-      <td>".$personas["nombre"][1]."</td>
-      <td>".$personas["apellido"][1]."</td>
-      <td>".$personas["DNI"][1]."</td>
+      <td>".$mes["mes"][1]."</td>
+      <td>".$mes["dia"][9]."</td>
+
   </tr>
-</table>")
+</table>");
 
 
 

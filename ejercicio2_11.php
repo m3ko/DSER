@@ -18,7 +18,7 @@ for ($i = 2; $i < $num; $i++) {
         }
 }
 
-if ($esPrimo==true) {
+if ($esPrimo) {
 
     echo("El numero ".$num. " Es un numero primo.");
 

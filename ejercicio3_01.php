@@ -13,8 +13,6 @@ $persona1=array("Ane","Goiku","895684X");
 $persona2=array("Sofia", "Cañabate", "5555555Y");
 
 
-
-
 echo("<table>
   <tr>
     <th>Nombre</th>

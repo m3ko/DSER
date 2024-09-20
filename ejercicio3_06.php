@@ -15,6 +15,7 @@
         echo(" ". $numeros[$i] .", ");
 
     }
+    
     echo("<br> Media: ".array_sum($numeros)/count($numeros));
 
     
